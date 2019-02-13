@@ -10,9 +10,9 @@
                 <[string8][BrakePosition][BrakeInput.Output]>
                 <[tmvector3d][LookAtPosition][ -0.6 0.0 0.0 ]> //mass: 4785.9 ( -0.607 0.000 0.135 )
             >
-// --------------------------------
-// #region Cameras
-// --------------------------------
+
+            // Cameras
+
             <[camera][CameraFollow][]
                 <[string8][Description][Behind aircraft]>
                 <[string8][Body][Fuselage]>
@@ -20,7 +20,7 @@
                 <[tmvector3d][Direction][1.0 0.0 0.0]>
             >
             <[camera_head][CameraPilot][]
-                <[string8][Description][Pilot view]>
+                <[string8][Tags][cockpit pilot left]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 1.3874 0.2648 0.5962 ]>
                 <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
@@ -31,33 +31,26 @@
                 <[bool][InCockpit][true]>
             >
             <[camera][CameraLeftWing][]
-                <[string8][Description][Left view]>
+                <[string8][Tags][left wing]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 8.4848 11.75 -2.8283 ]>
                 <[tmvector3d][Direction][ -0.7355 -0.6587 0.1585 ]>
             >
             <[camera][CameraRightWing][]
-                <[string8][Description][Right view]>
+                <[string8][Tags][right wing]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -13.0696 -11.75 3.0139 ]>
                 <[tmvector3d][Direction][ 0.5708 0.7953 -0.2040 ]>
             >
             <[camera][CameraNose][]
-                <[string8][Description][Nose view]>
+                <[string8][Tags][nose]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 10.4848 4.2424 4.2424 ]>
                 <[tmvector3d][Direction][ -0.9295 -0.2608 -0.2608 ]>
             >
-            <[camera][CameraTail][]
-                <[string8][Description][Tail view]>
-                <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ -14.0696 0.0 5.0232 ]>
-                <[tmvector3d][Direction][ 0.8827 0.0 -0.4700 ]>
-            >
-// #endregion
-// --------------------------------
-// #region Rigidbodies
-// --------------------------------
+
+            // Rigidbodies
+
             <[rigidbody][Fuselage][]
                 <[float64][Mass][3560.0]>
                 <[tmvector3d][InertiaLength][10.282402 1.915989 2.445681]>
@@ -182,10 +175,9 @@
                 <[float64][K][2092000]>
                 <[float64][D][31380]>
             >
-// #endregion
-// --------------------------------
-// #region Gears
-// --------------------------------
+
+            // Gears
+
             <[rigidbody][TailGear][]
                 <[float64][Mass][12.3]>
                 <[tmvector3d][InertiaLength][ 0.487680 0.152400 0.487680 ]>
@@ -306,10 +298,9 @@
             <[output][GroundRollLoadRight][]
                 <[string8][Input][RightWheelHull.Load]>
             >			
-// #endregion
-// --------------------------------
-// #region Airfoils
-// --------------------------------
+
+            // Airfoils
+
             <[airfoil][AirfoilHorizontalStabilizer][]
                 <[float64][Cl0][0.0]>
                 <[float64][Cd0][0.0052]>
@@ -389,10 +380,9 @@
                 <[float64][StallRange][0.15]>
                 <[float64][AttachedCenterFlap][-0.12]>
             >
-// #endregion
-// --------------------------------
-// #region Aerowings
-// --------------------------------
+
+            // Aerowings
+
             <[aerowing][LeftWingAero][]
                 <[string8][Body][LeftWing]>
                 <[float64][Span][3.230880]>
@@ -544,10 +534,9 @@
                 <[float64][PropwashPercentage][0.05]>
                 <[float64][PropwashOmega][4.0]>
             >
-// #endregion
-// --------------------------------
-// #region Aerofuselage
-// --------------------------------
+
+            // Aerofuselage
+
             <[aerofuselage][FuselageAero][]
                 <[string8][Body][Fuselage]>
                 <[float64][StationX][ 3.7873 3.6063 3.3463 2.9818 2.1288 1.6539 -0.0628 -2.8088 -9.2851 -10.4166 ]>
@@ -593,10 +582,9 @@
                 <[float64][Clz][ 1.5 ]>
                 <[float64][Cm][ 0.0 ]>
             >
-// #endregion
-// --------------------------------
-// #region Control Inputs
-// --------------------------------
+
+            // Control Inputs
+
             <[input_lever][ThrottleInput1][]
                 <[string8][Input][Controls.Throttle1]>
             >
@@ -652,10 +640,9 @@
                 <[string8][Input][MixElevatorTrim.Output]>
                 <[tmvector2d][Range][ -1.0 1.0 ]>
             >
-// #endregion
-// --------------------------------
-// #region Servos
-// --------------------------------
+
+            // Servos
+
             <[servoclassic][ServoLeftAileron][]
                 <[string8][Input][AileronInput.Output]>
                 <[float64][Speed][4.0]>
@@ -711,10 +698,9 @@
             <[output_free][ServoSteeringOutput][]
                 <[string8][Input][ServoSteering.Output]>
             >				
-// #endregion
-// --------------------------------
-// #region Propulsors
-// --------------------------------
+
+            // Propulsors
+
             <[airfoil][AirfoilPropeller][]
                 <[float64][Cl0][0.47]>
                 <[float64][Cd0][0.0082]>
@@ -768,7 +754,7 @@
                 <[float64][LateralForceCoefficient][1.0]>
                 <[float64][TorqueReduction][0.010000]>
                 <[string8][DamageOnCrash][Engine1.Damage]>
-                <[string8][PitchControl][1.52]>
+                <[string8][PitchControl][0.323]>
             >
             <[collisionblade][CollisionPropeller1][]
                 <[string8][Body][Propeller1Body]>
@@ -814,7 +800,7 @@
                 <[float64][LateralForceCoefficient][1.0]>
                 <[float64][TorqueReduction][0.010000]>
                 <[string8][DamageOnCrash][Engine2.Damage]>
-                <[string8][PitchControl][1.52]>
+                <[string8][PitchControl][0.323]>
             >
             <[collisionblade][CollisionPropeller2][]
                 <[string8][Body][Propeller2Body]>
@@ -860,7 +846,7 @@
                 <[float64][LateralForceCoefficient][1.0]>
                 <[float64][TorqueReduction][0.010000]>
                 <[string8][DamageOnCrash][Engine3.Damage]>
-                <[string8][PitchControl][1.52]>
+                <[string8][PitchControl][0.323]>
             >
             <[collisionblade][CollisionPropeller3][]
                 <[string8][Body][Propeller3Body]>
@@ -873,10 +859,9 @@
                 <[string8][Body1][Propeller3Body]>
                 <[float64][Friction][150.0]>
             >
-// #endregion
-// --------------------------------
-// #region Engines
-// --------------------------------
+
+            // Engines
+
             <[engine][Engine1][]
                 <[string8][ThrottleControl][ThrottleInput1.Output]>
                 <[string8][RotationSpeed][DriveShaft1.GetRotationSpeed]>
@@ -913,10 +898,9 @@
                 <[float64][RatedPower][312000]>
                 <[float64][Displacement][0.022]>
             >
-// #endregion
-// --------------------------------
-// #region Indicators & outputs
-// --------------------------------
+
+            // Indicators & outputs
+
             <[sender_body][SenderBody][]
                 <[string8][Body][Fuselage]>
             >
@@ -1021,10 +1005,6 @@
                 <[string8][Input][DriveShaft1.GetRotationSpeed]>
             >
         >
-// #endregion
-// --------------------------------
-// #region Graphics section
-// --------------------------------
         <[pointer_list_tmgraphics][GraphicObjects][]
     
             <[rigidbodygraphics][Fuselage][]
@@ -1508,10 +1488,6 @@
                 <[string8][InputTransform][RudderRotate.Output]>
             >
         >
-// #endregion
-// --------------------------------
-// #region Sound section
-// --------------------------------
         <[pointer_list_tmsound][SoundObjects][]
             <[soundinput][Airspeed][]
                 <[uint32][InputID][AirspeedIndicatorNeedle.Output]>
@@ -1756,6 +1732,5 @@
                 <[string8][SoundFile][ground_roll_h.wav]>
             >
         >
-// #endregion
     >
 >
