@@ -1436,7 +1436,7 @@
             <[graphics_pointlight][LeftLandingLight][]
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[tmvector3d][R0][0.4102 5.8162 0.9902]>
+                <[tmvector3d][R0][0.4302 5.8162 0.9902]>
                 <[tmvector3d][X0][ 0.953717 0.0 -0.300706 ]>
                 <[float64][ConeCenter][0.9]>
                 <[float64][ConeCutoff][0.6]>
@@ -1448,7 +1448,7 @@
             <[graphics_pointlight][RightLandingLight][]
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[tmvector3d][R0][0.4102 -5.8241 0.9902]>
+                <[tmvector3d][R0][0.4302 -5.8241 0.9902]>
                 <[tmvector3d][X0][ 0.953717 0.0 -0.300706 ]>
                 <[float64][ConeCenter][0.9]>
                 <[float64][ConeCutoff][0.6]>
