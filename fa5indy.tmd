@@ -265,7 +265,7 @@
                 <[tmvector3d][R0][-0.0105 2.6923 -1.9261]>
                 <[tmvector3d][X0][ 1.0 0.0 0.0 ]>
                 <[string8][InputBrake][LeftBrakeInput.Output]>
-				<[float64][BrakeStrength][0.5]>					
+				<[float64][BrakeStrength][0.1]>					
             >
             <[wheel][RightWheelHull][]
                 <[float64][K][750400]>
@@ -278,7 +278,7 @@
                 <[tmvector3d][R0][-0.0105 -2.6920 -1.9261]>
                 <[tmvector3d][X0][ 1.0 0.0 0.0 ]>
                 <[string8][InputBrake][RightBrakeInput.Output]>
-				<[float64][BrakeStrength][0.5]>					
+				<[float64][BrakeStrength][0.1]>					
             >
             <[output][GroundRollSpeedTail][]
                 <[string8][Input][TailWheelHull.Speed]>
