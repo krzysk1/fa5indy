@@ -8,8 +8,8 @@
                 <[string8][PowerPosition][ThrottleInput1.Output]>
                 <[string8][Airspeed][AirspeedIndicator.IndicatedAirspeed]>
                 <[string8][BrakePosition][BrakeInput.Output]>
-                <[tmvector3d][LookAtPosition][ -0.6 0.0 0.0 ]> //mass: 4785.9 ( -0.607 0.000 0.135 )
-            >
+                <[tmvector3d][LookAtPosition][ -0.607 0.000 0.135 ]>
+			>
 
             // Cameras
 
@@ -990,6 +990,9 @@
             <[output][UniversalTime][]
                 <[string8][Input][Clock.OutputUniversalTime]>
             >
+            <[output][LocalTime][]
+                <[string8][Input][Clock.OutputLocalTime]>
+            >
             <[balance_indicator][BalanceIndicator][]
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][2.0976 0.0 0.3076]>
@@ -1078,11 +1081,17 @@
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.0937 -0.0001 0.1854]>
             >
+            <[graphics_input][LocalTime][]
+                <[uint32][InputID][LocalTime.Output]>
+            >
+            <[graphics_sec_to_hms][Watch][]
+                <[string8][Input][LocalTime.Output]>
+            >			
             <[hingedbodygraphics][SecondsWatch][]
                 <[string8][GeometryList][ clock_second ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[uint32][AngleID][Clock.Output]>
+                <[string8][InputAngle][Watch.Seconds60]>	
                 <[float64][AngleMax][0.104667]>
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.0960 0.1200 0.1394]>
@@ -1091,7 +1100,7 @@
                 <[string8][GeometryList][ clock_minute ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[uint32][AngleID][Clock.Output]>
+                <[string8][InputAngle][LocalTime.Output]>
                 <[float64][AngleMax][0.001744]>
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.0960 0.1200 0.1394]>
@@ -1100,7 +1109,7 @@
                 <[string8][GeometryList][ clock_hour ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
-                <[uint32][AngleID][Clock.Output]>
+                <[string8][InputAngle][LocalTime.Output]>
                 <[float64][AngleMax][0.00014537037]>
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.0960 0.1200 0.1394]>
