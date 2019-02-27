@@ -3,7 +3,8 @@
         <[int][Version][210]>
         <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.2283) (-0.01 2.69 -1.926 0.51) (-0.01 -2.69 -1.926 0.51) ]>
         <[string8][DisplayName][Ford 5-AT Trimotor]>
-        <[string8][DescriptionTextEN][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world.#Converted by krzysk(at)wp.pl, 3D model from cadnav.com.]>
+        <[string8][DescriptionTextEN][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world.
+		Converted by Krzysztof Kaniewski, 3D model from cadnav.com.]>
 		<[float64][WingSpan][23.7]>
 		<[float64][Mass][3560.0]>
 		<[float64][MaximumSpeed][63.0]>
