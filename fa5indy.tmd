@@ -950,7 +950,10 @@
                 <[float64][RatedPower][312000]>
                 <[float64][Displacement][0.022]>
             >
-
+            <[output][RotationSpeed][]
+                <[string8][Input][DriveShaft1.GetRotationSpeed]>
+            >
+			
             // Indicators & outputs
 
             <[sender_body][SenderBody][]
@@ -1056,9 +1059,34 @@
                 <[tmvector3d][R0][ 2.0639 0.0 0.4517 ]>
                 <[float64][MaximumTilt][0.001]>
             >
-            <[output][RotationSpeed][]
-                <[string8][Input][DriveShaft1.GetRotationSpeed]>
+			
+            // external lights
+			
+            <[input_switch][BeaconLightSwitch][]
+                <[string8][Input][Controls.Lighting.Beacon]>
+                <[string8][Events][ SwitchSound.Trigger ]>
+                <[string8][EventsRelease][ SwitchSound.Trigger ]>
+                <[float64][Value][0.0]>
             >
+            <[output][BeaconLightOn][]
+                <[string8][Input][BeaconLightSwitch.Output]>
+            >
+            <[input_switch][LandingLightSwitch][]
+                <[string8][Input][Controls.Lighting.Landing]>
+                <[string8][Events][ SwitchSound.Trigger ]>
+                <[string8][EventsRelease][ SwitchSound.Trigger ]>
+                <[float64][Value][0.0]>
+            >
+            <[output][LandingLightOn][]
+                <[string8][Input][LandingLightSwitch.Output]>
+            >
+			
+            // sound events
+			
+            <[event_sound][SwitchSound][]
+            >
+
+			
         >
         <[pointer_list_tmgraphics][GraphicObjects][]
     
@@ -1485,13 +1513,9 @@
                 <[uint32][PositionID][TailGear.R]>
                 <[uint32][OrientationID][TailGear.Q]>
             >
-            <[graphics_input][LandingLightSwitch][]
-                <[uint32][InputID][ServoCockpit.Output]>
-                <[float64][Scaling][1.0]>
-            >
-            <[graphics_mapping][LandingLightMapping][]
-                <[string8][Input][LandingLightSwitch.Output]>
-                <[tmvector2d][Map][ (0.0 0.0) (0.05 1.0) ]>
+			// landing lights	
+            <[graphics_input][LandingLightOn][]
+                <[uint32][InputID][LandingLightOn.Output]>
             >
             <[graphics_pointlight][LeftLandingLight][]
                 <[uint32][PositionID][Fuselage.R]>
@@ -1503,7 +1527,7 @@
                 <[float64][Size][0.1]>
                 <[tmvector3d][Color][ 1.0 0.9 0.8 1.0 ]>
                 <[float64][Brightness][7.0]>
-                <[string8][InputModulation][LandingLightMapping.Output]>
+                <[string8][InputModulation][LandingLightOn.Output]>
             >
             <[graphics_pointlight][RightLandingLight][]
                 <[uint32][PositionID][Fuselage.R]>
@@ -1515,16 +1539,24 @@
                 <[float64][Size][0.1]>
                 <[tmvector3d][Color][ 1.0 0.9 0.8 1.0 ]>
                 <[float64][Brightness][7.0]>
-                <[string8][InputModulation][LandingLightMapping.Output]>
-            >
+                <[string8][InputModulation][LandingLightOn.Output]>
+            >		
+			// beacon light
             <[graphics_input][UniversalTime][]
                 <[uint32][InputID][UniversalTime.Output]>
             >				
             <[graphics_flasher][BeaconFlasher][]
-                <[string8][InputTime][UniversalTime.Output]>				
                 <[string8][Function][Triangle]>
+                <[string8][InputTime][UniversalTime.Output]>
                 <[float64][Period][2.493]>
                 <[float64][Minimum][0.1]>
+            >			
+            <[graphics_input][BeaconLightOn][]
+                <[uint32][InputID][BeaconLightOn.Output]>
+            >			
+            <[graphics_product][BeaconSwitched][]
+                <[uint32][Input0][BeaconFlasher.Output]>
+                <[uint32][Input1][BeaconLightOn.Output]>
             >
             <[graphics_input][RudderInput][]
                 <[uint32][InputID][ServoRudder.Output]>
@@ -1542,7 +1574,7 @@
                 <[float64][ConeCenter][-0.5]>
                 <[float64][ConeCutoff][-0.7]>
                 <[tmvector3d][Color][ 1.0 0.4 0.0 1.0 ]>
-                <[string8][InputModulation][BeaconFlasher.Output]>
+                <[string8][InputModulation][BeaconSwitched.Output]>
                 <[float64][Size][0.04]>
                 <[float64][Brightness][5.0]>
                 <[string8][InputTransform][RudderRotate.Output]>
