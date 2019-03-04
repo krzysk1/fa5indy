@@ -1,4 +1,12 @@
 <[file][][]
+
+	//-------------------------------------
+	// Plane: Ford A5 Trimotor
+	// Compilation: krzysk(at)wp.pl
+	// 3D model: http://www.cadnav.com/3d-models/model-10475.html
+	// Date: Fri May 08 2015; Feb 2019
+	//-------------------------------------
+
     <[modelmanager][][]
         <[pointer_list_tmuniverse][DynamicObjects][]
             <[telemetry][Telemetry][]
@@ -953,6 +961,15 @@
             <[output][RotationSpeed][]
                 <[string8][Input][DriveShaft1.GetRotationSpeed]>
             >
+            <[output][RotationSpeed1][]
+                <[string8][Input][DriveShaft1.GetRotationSpeed]>
+            >
+            <[output][RotationSpeed2][]
+                <[string8][Input][DriveShaft2.GetRotationSpeed]>
+            >
+            <[output][RotationSpeed3][]
+                <[string8][Input][DriveShaft3.GetRotationSpeed]>
+            >			
 			
             // Indicators & outputs
 
@@ -1085,7 +1102,6 @@
 			
             <[event_sound][SwitchSound][]
             >
-
 			
         >
         <[pointer_list_tmgraphics][GraphicObjects][]
@@ -1458,27 +1474,39 @@
                 <[tmvector3d][Joint1][-2.1815 8.2794 0.8468]>
                 <[uint32][AttachTo][2]>
             >  
-            <[rotatingbodygraphics][RightWheel][]
+            <[graphics_wheel][RightWheel][]
                 <[string8][GeometryList][ fa5tirer fa5wheer ]>
                 <[uint32][PositionID][RightGear.R]>
                 <[uint32][OrientationID][RightGear.Q]>
                 <[uint32][AngleID][RightWheelHull.RotationAngle]>
+                <[uint32][GroundID][RightWheelHull.Ground]>
+                <[uint32][DeformationID][RightWheelHull.Deformation]>
+                <[float64][Radius][0.51015]>
+                <[float64][RimRadius][0.2705]>				
 				<[tmvector3d][Axis][0.0 1.0 0.0 ]>
 				<[tmvector3d][Pivot][-0.0105 -2.6923 -1.9261]>
             >
-            <[rotatingbodygraphics][LeftWheel][]
+            <[graphics_wheel][LeftWheel][]
                 <[string8][GeometryList][ fa5tirel fa5wheel ]>
                 <[uint32][PositionID][LeftGear.R]>
                 <[uint32][OrientationID][LeftGear.Q]>
                 <[uint32][AngleID][LeftWheelHull.RotationAngle]>
+                <[uint32][GroundID][LeftWheelHull.Ground]>
+                <[uint32][DeformationID][LeftWheelHull.Deformation]>
+                <[float64][Radius][0.51015]>
+                <[float64][RimRadius][0.2705]>			
 				<[tmvector3d][Axis][0.0 1.0 0.0 ]>
 				<[tmvector3d][Pivot][-0.0105 2.6923 -1.9261]>
             >
-            <[rotatingbodygraphics][TailWheel][]
+            <[graphics_wheel][TailWheel][]
                 <[string8][GeometryList][ fa5tiret fa5wheet ]>
                 <[uint32][PositionID][TailGear.R]>
                 <[uint32][OrientationID][TailGear.Q]>
                 <[uint32][AngleID][TailWheelHull.RotationAngle]>
+                <[uint32][GroundID][TailWheelHull.Ground]>
+                <[uint32][DeformationID][TailWheelHull.Deformation]>
+                <[float64][Radius][0.2283]>
+                <[float64][RimRadius][0.1107]>				
 				<[tmvector3d][Axis][0.0 1.0 0.0 ]>
 				<[tmvector3d][Pivot][-10.8480 0.0 0.4705]>
             >
@@ -1640,20 +1668,68 @@
             <[soundloop][RPMWindLoopInt][]
                 <[string8][InputVolume][RPMVolumeWind.Output]>
                 <[string8][InputPitch][RPMPitchWind.Output]>
-                <[uint32][PositionID][Fuselage.R]>
-                <[uint32][VelocityID][Fuselage.V]>
+                <[uint32][PositionID][LeftWing.R]>
+                <[uint32][VelocityID][LeftWing.V]>
                 <[string8][SoundFile][prop1_inn.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RPMWindLoopExt][]
                 <[string8][InputVolume][RPMVolumeWind.Output]>
                 <[string8][InputPitch][RPMPitchWind.Output]>
-                <[uint32][PositionID][Fuselage.R]>
-                <[uint32][VelocityID][Fuselage.V]>
+                <[uint32][PositionID][LeftWing.R]>
+                <[uint32][VelocityID][LeftWing.V]>
                 <[string8][SoundFile][prop1_out.wav]> 
                 <[bool][Internal][false]>
             >			
-
+            <[soundmapping][RPMPitchWind2][]
+                <[string8][Input][RotationSpeed.Output]>
+                <[tmvector2d][Map][ (41.88 0.6) (230.36 2.0) (460.0 3.0) ]>
+            >
+            <[soundmapping][RPMVolumeWind2][]
+                <[string8][Input][RotationSpeed.Output]>
+                <[tmvector2d][Map][ (0.00 0.0) (100.00 1.00) (125.79 1.5) (366.88 3.0) ]>
+            >
+            <[soundloop][RPMWindLoopInt2][]
+                <[string8][InputVolume][RPMVolumeWind2.Output]>
+                <[string8][InputPitch][RPMPitchWind2.Output]>
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][VelocityID][Fuselage.V]>
+                <[string8][SoundFile][prop2_inn.wav]>
+                <[bool][External][false]>
+            >
+            <[soundloop][RPMWindLoopExt2][]
+                <[string8][InputVolume][RPMVolumeWind2.Output]>
+                <[string8][InputPitch][RPMPitchWind2.Output]>
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][VelocityID][Fuselage.V]>
+                <[string8][SoundFile][prop2_out.wav]> 
+                <[bool][Internal][false]>
+            >
+            <[soundmapping][RPMPitchWind3][]
+                <[string8][Input][RotationSpeed.Output]>
+                <[tmvector2d][Map][ (41.88 0.6) (230.36 2.0) (460.0 3.0) ]>
+            >
+            <[soundmapping][RPMVolumeWind3][]
+                <[string8][Input][RotationSpeed.Output]>
+                <[tmvector2d][Map][ (0.00 0.0) (100.00 1.00) (125.79 1.5) (366.88 3.0) ]>
+            >
+            <[soundloop][RPMWindLoopInt3][]
+                <[string8][InputVolume][RPMVolumeWind3.Output]>
+                <[string8][InputPitch][RPMPitchWind3.Output]>
+                <[uint32][PositionID][RightWing.R]>
+                <[uint32][VelocityID][RightWing.V]>
+                <[string8][SoundFile][prop3_inn.wav]>
+                <[bool][External][false]>
+            >
+            <[soundloop][RPMWindLoopExt3][]
+                <[string8][InputVolume][RPMVolumeWind3.Output]>
+                <[string8][InputPitch][RPMPitchWind3.Output]>
+                <[uint32][PositionID][RightWing.R]>
+                <[uint32][VelocityID][RightWing.V]>
+                <[string8][SoundFile][prop3_out.wav]> 
+                <[bool][Internal][false]>
+            >			
+			
             // starter cranking
             <[soundinput][IgnitionSoundInput][]
                 <[uint32][InputID][IgnitionSound.Output]>
@@ -1673,7 +1749,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
                 <[string8][SoundFile][eng_START.wav]>					
-            >		
+            >			
 
             // engine loop
             <[soundinput][RotationSpeed][]
