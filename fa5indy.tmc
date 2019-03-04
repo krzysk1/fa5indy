@@ -1,25 +1,25 @@
 ﻿<[file][][]
     <[object][][]
         <[int][Version][210]>
-        <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.2283) (-0.01 2.69 -1.926 0.51) (-0.01 -2.69 -1.926 0.51) ]>
+        <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.69 -1.926 0.51) (-0.01 -2.69 -1.926 0.51) ]>
         <[string8][DisplayName][Ford 5-AT Trimotor]>
         <[string8][DescriptionTextEN][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world.
-		Converted by Krzysztof Kaniewski, 3D model from cadnav.com.]>
+		For Aerofly FS2 made by Krzysztof Kaniewski, 3D model from cadnav.com.]>
 		<[float64][WingSpan][23.7]>
 		<[float64][Mass][3560.0]>
-		<[float64][MaximumSpeed][63.0]>
-		<[float64][MinimumSpeed][23.0]>
+		<[float64][MaximumSpeed][65.0]>
+		<[float64][MinimumSpeed][28.0]>
         <[float64][ApproachSpeed][33.3]>
-        <[float64][CruiseSpeed]  [55.6]>
-		<[tmvector2d][NormalSpeedRange][ 23.0 52.1 ]>
-		<[tmvector2d][CautionSpeedRange][ 52.1 63.0 ]>
+        <[float64][CruiseSpeed]  [39.0]>
+		<[tmvector2d][NormalSpeedRange][ 28.0 52.1 ]>
+		<[tmvector2d][CautionSpeedRange][ 52.1 65.0 ]>
 		<[tmvector2d][FlapSpeedRange][ 0.0 0.0 ]>
         <[float64][MaximumAltitude][5640.0]>
-        <[float64][CruiseAltitude] [1826.0]>
+        <[float64][CruiseAltitude] [2826.0]>
         <[float64][QSpan][23.7]>
-        <[float64][QMass][4785.9]>
-        <[float64][QSpeed][86.0]>
-        <[float64][QPower][118000.0]>
+        <[float64][QMass][6120.0]>
+        <[float64][QSpeed][65.0]>
+        <[float64][QPower][939000.0]>
         <[float64][QThrust][0.0]>
         <[float64][QRange][885000.0]>
         <[float64][QRatio][0.0]>
