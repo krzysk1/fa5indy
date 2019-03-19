@@ -1236,7 +1236,7 @@
                 <[uint32][AngleID][Propeller1.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller1.RotationSpeed]>
                 <[uint32][DamageID][Propeller1.Damaged]>
-                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][0.9158 2.6023 -0.3513]>
                 <[float64][Radius][1.310640]>
                 <[string8][InputPitch][0.0]>
@@ -1271,7 +1271,7 @@
                 <[uint32][AngleID][Propeller2.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller2.RotationSpeed]>
                 <[uint32][DamageID][Propeller2.Damaged]>
-                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][3.7874 -0.0004 -0.2633]>
                 <[float64][Radius][1.310640]>
                 <[string8][InputPitch][0.0]>
@@ -1306,7 +1306,7 @@
                 <[uint32][AngleID][Propeller3.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller3.RotationSpeed]>
                 <[uint32][DamageID][Propeller3.Damaged]>
-                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][0.9158 -2.6024 -0.3513]>
                 <[float64][Radius][1.310640]>
                 <[string8][InputPitch][0.0]>
