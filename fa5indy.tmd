@@ -213,8 +213,8 @@
                 <[string8][Body0][Fuselage]>
                 <[string8][Body1][LeftGear]>
                 <[tmvector3d][X0][0.0 0.0 1.0]>
-                <[float64][Kp][876000.147255]>
-                <[float64][Kd][2752.7363]>
+                <[float64][Kp][876000.1]>
+                <[float64][Kd][2752.7]>
                 <[tmvector3d][R0][ -0.0362 2.2944 -1.2935 ]>
                 <[uint32][Type][1]>
             >
@@ -228,8 +228,8 @@
                 <[string8][Body0][Fuselage]>
                 <[string8][Body1][RightGear]>
                 <[tmvector3d][X0][0.0 0.0 1.0]>
-                <[float64][Kp][876000.147255]>
-                <[float64][Kd][2752.7363]>
+                <[float64][Kp][876000.1]>
+                <[float64][Kd][2752.7]>
                 <[tmvector3d][R0][ -0.0362 -2.2944 -1.2935 ]>
                 <[uint32][Type][1]>
             >
