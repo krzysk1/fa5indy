@@ -1069,6 +1069,9 @@
                 <[float64][Radius][0.08]>
                 <[float64][Limit][0.024]>
             >
+            <[output][BalanceIndicatorDeflection][]
+                <[string8][Input][BalanceIndicator.Output]>
+            >			
             <[magnetic_compass][MagneticCompass][]
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 2.0639 0.0 0.4517 ]>
@@ -1135,10 +1138,15 @@
                 <[tmvector3d][Axis][-1.0 0.0 0.0]>
                 <[tmvector3d][Pivot][2.0954 0.1550 0.2685]>
             >
-            <[rigidbodygraphics][BalanceIndicatorBall][]
+            <[hingedbodygraphics][BalanceIndicatorBall][]
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][OrientationID][Fuselage.Q]>
                 <[string8][GeometryList][ BallNeedle ]>
-                <[uint32][PositionID][BalanceIndicatorBall.R]>
-            >
+                <[tmvector3d][Axis][ -1.0 0.0 0.0 ]>
+                <[tmvector3d][Pivot][ 2.0976 0.0 0.6076 ]>
+                <[float64][AngleMax][0.17]>
+                <[string8][AngleID][BalanceIndicatorDeflection.Output]>
+            >			
             <[hingedbodygraphics][turn_needle][]
                 <[string8][GeometryList][ TurnNeedle ]>
                 <[uint32][PositionID][Fuselage.R]>
