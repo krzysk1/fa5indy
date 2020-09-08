@@ -1754,7 +1754,7 @@
                 <[string8][InputPitch][PitchIgnition.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][eng_START.wav]>
+                <[string8][SoundFile][eng_start.wav]>
             >
 
             // engine loop
