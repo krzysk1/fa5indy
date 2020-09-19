@@ -1108,7 +1108,7 @@
         <[pointer_list_tmgraphics][GraphicObjects][]
 
             <[rigidbodygraphics][Fuselage][]
-                <[string8][GeometryList][ Fa5train Fa5train1 Fa5train2 Fa5metal Fa5metal1 Fa5tuerc Fa5dark Fa5dark1 Fa5rudd Fa5rudd1 Fa5rudd2 Fa5faro Fa5fus Fa5fuse Fa5cab Fa5Cabin Fa5cab1 Fa5cobr Fa5corr Fa5cil Fa5chair Fa5Panel Gauges CompassBox CompassFace Screw1 Screw2 Buttons Fond GaugeGlass GaugesNew ]>
+                <[string8][GeometryList][ Fa5train Fa5train1 Fa5train2 Fa5metal Fa5metal1 Fa5tuerc Fa5dark Fa5dark1 Fa5rudd Fa5rudd1 Fa5rudd2 Fa5stab Fa5faro Fa5fus Fa5fuse Fa5cab Fa5Cabin Fa5cab1 Fa5cobr Fa5corr Fa5cil Fa5chair Fa5Panel Gauges CompassBox CompassFace Screw1 Screw2 Buttons Fond GaugeGlass GaugesNew ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >
