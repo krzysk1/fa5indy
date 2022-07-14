@@ -8,6 +8,8 @@
         <[float64][ApproachSpeed][28.3]>
         <[float64][PatternSpeed][36.3]>
         <[float64][InitialClimbSpeed][28.3]>
+        <[int][EngineCount][3]>
+        <[bool][Piston][true]>
         <[bool][TailDragger][true]>
         <[bool][ParkingBrake][true]>		
         <[bool][RudderTrimRequired][true]>
