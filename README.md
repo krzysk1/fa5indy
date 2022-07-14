@@ -9,7 +9,7 @@ Some features may not work as intended and this aircraft could crash your Aerofl
 
 Installation
 
-1. Unzip file and move the folder "fa5indy" to C:\Users\~\Documents\Aerofly FS2\aircraft.
+1. Unzip file and move the folder "fa5indy" to C:\Users\~\Documents\Aerofly FS4\aircraft.
 
 
 ================================================================================================================================
