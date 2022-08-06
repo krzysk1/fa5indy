@@ -635,6 +635,14 @@
                 <[string8][Input][PitchTrim.Output]>
                 <[string8][Message][Aircraft.Trim]>
             >
+            <[output_free][ElevatorTrimInputOutput][]
+                <[string8][Input][ElevatorTrimInput.Output]>
+            >
+            <[sender][SenderPitchTrimPosition][]
+                <[string8][Input][PitchTrim.Output]>
+                <[string8][Message][Aircraft.PitchTrim]>
+                <[string8][Qualifiers][ normalized ]>
+            >
             <[mixlinear][MixElevatorTrim][]
                 <[string8][Input0][ElevatorInput.Output]>
                 <[string8][Input1][PitchTrim.Output]>
@@ -978,7 +986,7 @@
             <[sender][SenderAngleOfAttack][]
                 <[string8][Input][PitotTube.AngleOfAttack]>
                 <[string8][Message][Aircraft.AngleOfAttack]>
-            >			
+            >
             <[altimeter][Altimeter][]
                 <[string8][StaticPressure][PitotTube.StaticPressure]>
     			<[float64][AltimeterSetting][PressureSettingInput.Output]>
@@ -1070,7 +1078,7 @@
             >
             <[output][BalanceIndicatorDeflection][]
                 <[string8][Input][BalanceIndicator.Output]>
-            >			
+            >
             <[magnetic_compass][MagneticCompass][]
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 2.0639 0.0 0.4517 ]>
@@ -1145,7 +1153,7 @@
                 <[tmvector3d][Pivot][ 2.0976 0.0 0.6076 ]>
                 <[float64][Scaling][0.17]>
                 <[string8][InputID][BalanceIndicatorDeflection.Output]>
-            >			
+            >
             <[hingedbodygraphics][turn_needle][]
                 <[string8][GeometryList][ TurnNeedle ]>
                 <[uint32][PositionID][Fuselage.R]>
@@ -1220,8 +1228,14 @@
                 <[tmvector3d][Axis][ 1.0 -0.0 -0.0 ]>
                 <[tmvector3d][Pivot][2.0960 0.1200 0.1394]>
             >
+            // <[graphics_human][Crew][]
+                // <[string8][GeometryList][ PilotBody PilotHead ]>
+                // <[uint32][PositionID][Fuselage.R]>
+                // <[uint32][OrientationID][Fuselage.Q]>
+                // <[uint32][ShowInside][8]>
+			// >
             <[rigidbodygraphics][Crew][]
-                <[string8][GeometryList][ GeneralPilot ]>
+                <[string8][GeometryList][ PilotBody PilotHead ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][ShowInside][8]>
