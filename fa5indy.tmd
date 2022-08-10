@@ -124,19 +124,21 @@
                 <[string8][Body][Fuselage]>
                 <[string8][Geometry][Fa5rudd1]>
                 <[float64][K][12036000]>
-                <[float64][D][120360]>
+                <[float64][D][120360]>			
             >
             <[collisionhull][CollisionLeftWing][]
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Fa5rudd]>
                 <[float64][K][2092000]>
                 <[float64][D][31380]>
+				<[bool][CrashOnContact][true]>				
             >
             <[collisionhull][CollisionRightWing][]
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Fa5rudd]>
                 <[float64][K][2092000]>
                 <[float64][D][31380]>
+				<[bool][CrashOnContact][true]>				
             >
 
             // Gears
@@ -1565,24 +1567,24 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[tmvector3d][R0][0.4302 5.8162 0.9902]>
-                <[tmvector3d][X0][ 0.953717 0.0 -0.300706 ]>
+                <[tmvector3d][X0][ 0.8 0.2 0.0 ]>
+                <[tmvector3d][Color][ 1.0 0.8 0.7 1.0 ]>
                 <[float64][ConeCenter][0.9]>
                 <[float64][ConeCutoff][0.6]>
-                <[float64][Size][0.1]>
-                <[tmvector3d][Color][ 1.0 0.9 0.8 1.0 ]>
-                <[float64][Brightness][7.0]>
+                <[float64][Size][0.07]>
+                <[float64][Brightness][60.0]>
                 <[string8][InputModulation][LandingLightOn.Output]>
             >
             <[graphics_pointlight][RightLandingLight][]
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[tmvector3d][R0][0.4302 -5.8241 0.9902]>
-                <[tmvector3d][X0][ 0.953717 0.0 -0.300706 ]>
+                <[tmvector3d][X0][ 0.8 -0.2 0.0 ]>
+                <[tmvector3d][Color][ 1.0 0.8 0.7 1.0 ]>
                 <[float64][ConeCenter][0.9]>
                 <[float64][ConeCutoff][0.6]>
-                <[float64][Size][0.1]>
-                <[tmvector3d][Color][ 1.0 0.9 0.8 1.0 ]>
-                <[float64][Brightness][7.0]>
+                <[float64][Size][0.07]>
+                <[float64][Brightness][60.0]>
                 <[string8][InputModulation][LandingLightOn.Output]>
             >
 			// beacon light
@@ -1615,14 +1617,26 @@
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[tmvector3d][R0][-10.1716 0.0003 3.1731]>
                 <[tmvector3d][X0][ 0.0 0.0 1.0 ]>
-                <[float64][ConeCenter][-0.5]>
-                <[float64][ConeCutoff][-0.7]>
-                <[tmvector3d][Color][ 1.0 0.4 0.0 1.0 ]>
+                <[tmvector3d][Color][ 1.0 0.0 0.0 1.0 ]>
+                <[float64][Size][0.05]>
+                <[float64][ConeCenter][0.0]>
+                <[float64][ConeCutoff][-0.2]>
+                <[float64][Brightness][20.0]>
                 <[string8][InputModulation][BeaconSwitched.Output]>
-                <[float64][Size][0.04]>
-                <[float64][Brightness][5.0]>
                 <[string8][InputTransform][RudderRotate.Output]>
             >
+            <[graphics_conelight][BeaconLightCone][]
+                <[uint32][PositionID][Fuselage.R]>
+                <[uint32][OrientationID][Fuselage.Q]>
+                <[tmvector3d][R0][-10.1716 0.0003 3.1731]>
+                <[tmvector3d][X0][ 0.0 0.0 1.0 ]>
+                <[tmvector3d][Color][ 1.0 0.0 0.0 1.0 ]>
+                <[float64][Brightness][0.5]>
+                <[float64][ConeCenter][0.1]>
+                <[float64][ConeCutoff][-0.1]>
+                <[string8][InputModulation][BeaconSwitched.Output]>
+                <[string8][InputTransform][RudderRotate.Output]>
+            >			
         >
         <[pointer_list_tmsound][SoundObjects][]
 
