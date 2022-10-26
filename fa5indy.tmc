@@ -1,7 +1,7 @@
 ﻿<[file][][]
     <[object][][]
         <[int][Version][220]>
-        <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.69 -1.926 0.51) (-0.01 -2.69 -1.926 0.51) ]>
+        <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.5 -1.926 0.51) (-0.01 -2.5 -1.926 0.51) ]>
         <[string8][ICAO][TRIM]>
         <[string8][DisplayName][Trimotor]>
         <[string8][DisplayNameFull][Ford 5-AT Trimotor]>

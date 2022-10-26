@@ -222,11 +222,11 @@
                 <[float64][K][750400]>
                 <[float64][D][5628]>
                 <[float64][Radius][0.51015]>
-                <[float64][Width][0.3895]>
+                <[float64][Width][0.3267]> 
                 <[float64][RimRadius][0.2705]>
                 <[float64][Inflation][620528.4]>
                 <[string8][Body][LeftGear]>
-                <[tmvector3d][R0][-0.0105 2.6923 -1.9261]>
+                <[tmvector3d][R0][-0.0105 2.5 -1.9261]>
                 <[string8][InputBrake][LeftBrakeInput.Output]>
 				<[float64][BrakeStrength][0.1]>
             >
@@ -234,11 +234,11 @@
                 <[float64][K][750400]>
                 <[float64][D][5628]>
                 <[float64][Radius][0.51015]>
-                <[float64][Width][0.3895]>
+                <[float64][Width][0.3267]>
                 <[float64][RimRadius][0.2705]>
                 <[float64][Inflation][620528.4]>
                 <[string8][Body][RightGear]>
-                <[tmvector3d][R0][-0.0105 -2.6920 -1.9261]>
+                <[tmvector3d][R0][-0.0105 -2.5 -1.9261]>
                 <[string8][InputBrake][RightBrakeInput.Output]>
 				<[float64][BrakeStrength][0.1]>
             >
@@ -1496,10 +1496,10 @@
                 <[uint32][AngleID][RightWheelHull.RotationAngle]>
                 <[uint32][GroundID][RightWheelHull.Ground]>
                 <[uint32][DeformationID][RightWheelHull.Deformation]>
-                <[float64][Radius][0.51015]>
+                <[float64][Radius][0.51015]>   
                 <[float64][RimRadius][0.2705]>
 				<[tmvector3d][Axis][0.0 1.0 0.0 ]>
-				<[tmvector3d][Pivot][-0.0105 -2.6923 -1.9261]>
+				<[tmvector3d][Pivot][-0.0105 -2.5 -1.9261]>
             >
             <[graphics_wheel][LeftWheel][]
                 <[string8][GeometryList][ Fa5tirel Fa5Wheel ]>
@@ -1511,7 +1511,7 @@
                 <[float64][Radius][0.51015]>
                 <[float64][RimRadius][0.2705]>
 				<[tmvector3d][Axis][0.0 1.0 0.0 ]>
-				<[tmvector3d][Pivot][-0.0105 2.6923 -1.9261]>
+				<[tmvector3d][Pivot][-0.0105 2.5 -1.9261]>
             >
             <[graphics_wheel][TailWheel][]
                 <[string8][GeometryList][ Fa5tiret Fa5wheet ]>
