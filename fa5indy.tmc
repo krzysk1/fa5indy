@@ -3,20 +3,25 @@
         <[int][Version][220]>
         <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.5 -1.926 0.51) (-0.01 -2.5 -1.926 0.51) ]>
         <[string8][ICAO][TRIM]>
-        <[string8][DisplayName][Trimotor]>
+        <[string8][DisplayName][Ford Trimotor]>
         <[string8][DisplayNameFull][Ford 5-AT Trimotor]>
         <[localized_text_list][Descriptions][]
             <[localized_text][][]
                 <[string8][Language][en]>
                 <[string8][Text][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world. For Aerofly FS4 made by Krzysztof Kaniewski, 3D model from cadnav.com.]>
+            >
+            <[localized_text][][]
+                <[string8][Language][de]>
+                <[string8][Text][Ford Trimotor ist die gemeinsame Bezeichnung für die dreimotorigen Passagierflugzeuge der Typen Ford 4-AT und Ford 5-AT, welche von der Stout Metal Airplane Company, einem Tochterunternehmen der Ford Motor Company, von 1926 bis 1933 produziert wurden. Für Aerofly FS4 von Krzysztof Kaniewski. 3d-Modell heruntergeladen von cadnav.com.]>
+			>
         >
 		<[float64][WingSpan][23.7]>
 		<[float64][MaximumAirspeed][65.0]>
-		<[float64][MaximumSpeed][65.0]>		
+		<[float64][MaximumSpeed][65.0]>
 		<[float64][MinimumAirspeed][28.0]>
         <[float64][ApproachAirspeed][33.3]>
         <[float64][CruiseAirspeed][39.0]>
-        <[float64][CruiseSpeed][55.0]>		
+        <[float64][CruiseSpeed][55.0]>
 		<[tmvector2d][NormalAirspeedRange][ 28.0 52.1 ]>
 		<[tmvector2d][CautionAirspeedRange][ 52.1 65.0 ]>
 		<[tmvector2d][FlapAirspeedRange][ 0.0 0.0 ]>
@@ -28,6 +33,6 @@
         <[uint][UnitsBuilt][199]>
         <[uint][EngineCount][3]>
         <[uint][Year][1926]>
-        <[string8][Tags][ airplane historical piston gear tailgear ]>		
+        <[string8][Tags][ airplane historical piston gear tailgear ]>
     >
 >
