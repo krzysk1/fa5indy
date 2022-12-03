@@ -19,7 +19,7 @@
             <[camera][CameraFollow][]
                 <[string8][Description][Behind aircraft]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ -30.1 0.0 3.8 ]>
+                <[tmvector3d][R0][ -30.1 0.0 6.0 ]>
                 <[tmvector3d][Direction][1.0 0.0 0.0]>
             >
             <[camera_head][CameraPilot][]
