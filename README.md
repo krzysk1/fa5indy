@@ -1,18 +1,22 @@
 # fa5indy
 The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world. (From Wikipedia, the free encyclopedia)
 
-This is free add-on for Aerofly FS4 developed by Krzysztof Kaniewski,
+This is free add-on for Aerofly FS4 created by Krzysztof Kaniewski with the Aerofly FS4 SDK,
 3D model was downloaded from http://www.cadnav.com/3d-models/model-10475.html
 
-Some features may not work as intended and this aircraft could crash your Aerofly FS4. 
+ Some features may not work as intended and this aircraft could crash your Aerofly FS4. 
  Use it at your own risk!
 
-Installation
+# Installation
 
-1. Unzip file and move the folder "fa5indy" to C:\Users\~\Documents\Aerofly FS4\aircraft.
+1. Unzip file and move the folder "fa5indy" into the C:\Users\~\Documents\Aerofly FS 4\aircraft folder.
 
+# Uninstall
 
-================================================================================================================================
+1. Delete the folder "fa5indy".
+
+# Resources
+
 This file download from the CadNav
 
 50000+ Free 3D Models & CAD  Models download http://www.cadnav.com
