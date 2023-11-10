@@ -4,7 +4,7 @@
 	// Plane: Ford A5 Trimotor
 	// Compilation: krzysk(at)wp.pl
 	// 3D model: http://www.cadnav.com/3d-models/model-10475.html
-	// Date: Fri May 08 2015; Feb 2019; Aug 2022
+	// Date: Fri May 08 2015; Feb 2019; Aug 2022; May 2023
 	//-------------------------------------
 
     <[modelmanager][][]
@@ -125,20 +125,19 @@
                 <[string8][Geometry][Fa5rudd1]>
                 <[float64][K][12036000]>
                 <[float64][D][120360]>			
+                <[bool][InstantCrash][true]>
             >
             <[collisionhull][CollisionLeftWing][]
                 <[string8][Body][LeftWing]>
                 <[string8][Geometry][Fa5rudd]>
                 <[float64][K][2092000]>
-                <[float64][D][31380]>
-				<[bool][CrashOnContact][true]>				
+                <[float64][D][31380]>			
             >
             <[collisionhull][CollisionRightWing][]
                 <[string8][Body][RightWing]>
                 <[string8][Geometry][Fa5rudd]>
                 <[float64][K][2092000]>
-                <[float64][D][31380]>
-				<[bool][CrashOnContact][true]>				
+                <[float64][D][31380]>			
             >
 
             // Gears
