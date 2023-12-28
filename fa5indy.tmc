@@ -27,12 +27,13 @@
 		<[tmvector2d][FlapAirspeedRange][ 0.0 0.0 ]>
         <[float64][MaximumAltitude][5640.0]>
         <[float64][CruiseAltitude][2826.0]>
-        <[float64][MaximumTakeoffMass][6120.0]>
+        <[float64][MaximumTakeoffMass][4595.0]>
         <[float64][EnginePower][939000.0]>
         <[float64][MaximumRange][885000.0]>
         <[uint][UnitsBuilt][199]>
         <[uint][EngineCount][3]>
         <[uint][Year][1926]>
         <[string8][Tags][ airplane historical piston gear tailgear ]>
+        <[string8][Pilot][pilot_peter]>
     >
 >
