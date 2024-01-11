@@ -43,3 +43,6 @@ If you wanna rerelease the file in another website, please keep this info file i
 Share rose get fun, please share it with your friend.
 
 ENJOY!
+
+Note: this airplane does not have a detailed cockpit. It is a simple conversion of the previous model from AFS2, and no further development is planned at this time. 
+If you are interested you can begin to develop the model on your own (I will provide any assistance in this regard)
