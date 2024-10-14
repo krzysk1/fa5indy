@@ -23,6 +23,6 @@
         <[float64][FlareHeightScaling][0.6]>
         <[float64][FlareExpectedNoseDrop][0.4]>
         <[float64][GainSideSlipRoll][2.0]>
-        <[float64][StarterMaximumTime][15.0]>
+        <[float64][StarterMaximumTime][5.0]>
     >
 >

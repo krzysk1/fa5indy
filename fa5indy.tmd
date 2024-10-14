@@ -1317,7 +1317,7 @@
                 <[float64][Scaling][1.0]>
             >
             <[linkagegraphics][RightRudderLink][]
-                <[string8][GeometryList][ Fa5rudLinkr ]>
+                <[string8][GeometryList][ Fa5rudLinkr Fa5rudLinkr1 Fa5rudLinkr2 ]>
                 <[string8][Graphics0][Rudder]>
                 <[string8][Graphics1][RightRudderDrive]>
                 <[tmvector3d][Joint0][-10.5818 -0.2667 1.1372]>
@@ -1334,7 +1334,7 @@
                 <[float64][Scaling][1.0]>
             >
             <[linkagegraphics][LeftRudderLink][]
-                <[string8][GeometryList][ Fa5rudLinkl ]>
+                <[string8][GeometryList][ Fa5rudLinkl Fa5rudLinkl1 ]>
                 <[string8][Graphics0][Rudder]>
                 <[string8][Graphics1][LeftRudderDrive]>
                 <[tmvector3d][Joint0][-10.5819 0.2733 1.1336]>
@@ -1359,7 +1359,7 @@
                 <[float64][Scaling][1.0]>
             >
             <[linkagegraphics][RightUpElevatorLink][]
-                <[string8][GeometryList][ Fa5elevLinkru ]>
+                <[string8][GeometryList][ Fa5elevLinkru Fa5elevLinkru1 Fa5elevLinkru2 ]>
                 <[string8][Graphics0][Elevator]>
                 <[string8][Graphics1][RightElevatorDrive]>
                 <[tmvector3d][Joint0][-10.4425 -0.4697 1.4119]>
@@ -1367,7 +1367,7 @@
                 <[uint32][AttachTo][2]>
             >
             <[linkagegraphics][RightDownElevatorLink][]
-                <[string8][GeometryList][ Fa5elevLinkrd ]>
+                <[string8][GeometryList][ Fa5elevLinkrd Fa5elevLinkrd1 Fa5elevLinkrd2 ]>
                 <[string8][Graphics0][Elevator]>
                 <[string8][Graphics1][RightElevatorDrive]>
                 <[tmvector3d][Joint0][-10.4419 -0.4698 1.0784]>
@@ -1384,7 +1384,7 @@
                 <[float64][Scaling][1.0]>
             >
             <[linkagegraphics][LeftUpElevatorLink][]
-                <[string8][GeometryList][ Fa5elevLinklu ]>
+                <[string8][GeometryList][ Fa5elevLinklu Fa5elevLinklu1 ]>
                 <[string8][Graphics0][Elevator]>
                 <[string8][Graphics1][LeftElevatorDrive]>
                 <[tmvector3d][Joint0][-10.4423 0.4637 1.4082]>
@@ -1392,7 +1392,7 @@
                 <[uint32][AttachTo][2]>
             >
             <[linkagegraphics][LeftDownElevatorLink][]
-                <[string8][GeometryList][ Fa5elevLinkld ]>
+                <[string8][GeometryList][ Fa5elevLinkld Fa5elevLinkld1 ]>
                 <[string8][Graphics0][Elevator]>
                 <[string8][Graphics1][LeftElevatorDrive]>
                 <[tmvector3d][Joint0][-10.4419 0.4576 1.0784]>
@@ -3856,4 +3856,3 @@
         >
     >
 >
-
