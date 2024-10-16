@@ -7,7 +7,7 @@
         <[float64][HeightOffset][-1.926]>
         <[float64][ApproachSpeed][29.0]>
         <[float64][PatternSpeed][42.0]>
-        <[float64][InitialClimbSpeed][35.3]>
+        <[float64][InitialClimbSpeed][38.3]>
         <[int][EngineCount][3]>
         <[bool][Piston][true]>
         <[bool][GeneralAviation][true]>
@@ -15,7 +15,7 @@
         <[bool][TailDragger][true]>
         <[bool][RudderTrimRequired][true]>
         <[float64][ElevatorGain][0.5]>
-        <[float64][AileronGain][5.5]>
+        <[float64][AileronGain][3.5]>
         <[float64][RudderGain][2.0]>
         <[float64][RudderCrossWind][1.5]>
         <[float64][RudderTakeOff][0.07]>

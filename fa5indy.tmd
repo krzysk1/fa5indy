@@ -865,10 +865,10 @@
                 <[float64][InputTemperature] [EngineHousing.Output]>
                 <[float64][AddHeat]          [EngineHousing.AddHeat]>
                 <[float64][RotationInertia][120.1776]>
-                <[float64][ThrottleIdle][0.1]>
+                <[float64][ThrottleIdle][0.122]>
                 <[float64][Friction][2000.0]>
                 <[float64][RatedRotationSpeed][220.0]>
-                <[float64][RatedPower][311000]>
+                <[float64][RatedPower][306000]>
                 <[float64][Displacement][0.022]>
             >
             <[output][RotationSpeed1][]
@@ -886,10 +886,10 @@
                 <[float64][InputTemperature] [EngineHousing.Output]>
                 <[float64][AddHeat]          [EngineHousing.AddHeat]>
                 <[float64][RotationInertia][120.1776]>
-                <[float64][ThrottleIdle][0.1]>
+                <[float64][ThrottleIdle][0.123]>
                 <[float64][Friction][2000.0]>
                 <[float64][RatedRotationSpeed][220.0]>
-                <[float64][RatedPower][311000]>
+                <[float64][RatedPower][310000]>
                 <[float64][Displacement][0.022]>
             >
             <[output][RotationSpeed2][]
@@ -907,10 +907,10 @@
                 <[float64][InputTemperature] [EngineHousing.Output]>
                 <[float64][AddHeat]          [EngineHousing.AddHeat]>
                 <[float64][RotationInertia][120.1776]>
-                <[float64][ThrottleIdle][0.1]>
+                <[float64][ThrottleIdle][0.121]>
                 <[float64][Friction][2000.0]>
                 <[float64][RatedRotationSpeed][220.0]>
-                <[float64][RatedPower][311000]>
+                <[float64][RatedPower][304000]>
                 <[float64][Displacement][0.022]>
             >
             <[output][RotationSpeed3][]
