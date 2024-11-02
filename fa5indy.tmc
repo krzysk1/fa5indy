@@ -1,18 +1,22 @@
 ﻿<[file][][]
-    <[object][][]
-        <[int][Version][220]>
-        <[vec32array][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.5 -1.926 0.51) (-0.01 -2.5 -1.926 0.51) ]>
-        <[string8][ICAO][TRIM]>
+    <[modelinformation][][]
+        <[int32][Version][220]>
+        <[list_vector4_float64][ContactSpheres][ (-10.848 0.0 0.4705 0.228) (-0.01 2.5 -1.926 0.51) (-0.01 -2.5 -1.926 0.51) ]>
+        <[stringt8c][ICAO][TRIM]>
         <[string8][DisplayName][Ford Trimotor]>
         <[string8][DisplayNameFull][Ford 5-AT Trimotor]>
-        <[localized_text_list][Descriptions][]
-            <[localized_text][][]
+        <[list_localized_text][Descriptions][]
+            <[localized_text][element][0]
                 <[string8][Language][en]>
                 <[string8][Text][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world. For Aerofly FS4 made by Krzysztof Kaniewski, 3D model from cadnav.com.]>
             >
-            <[localized_text][][]
+            <[localized_text][element][1]
                 <[string8][Language][de]>
                 <[string8][Text][Ford Trimotor ist die gemeinsame Bezeichnung für die dreimotorigen Passagierflugzeuge der Typen Ford 4-AT und Ford 5-AT, welche von der Stout Metal Airplane Company, einem Tochterunternehmen der Ford Motor Company, von 1926 bis 1933 produziert wurden. Für Aerofly FS4 von Krzysztof Kaniewski. 3d-Modell heruntergeladen von cadnav.com.]>
+			>
+            <[localized_text][element][2]
+                <[string8][Language][pl]>
+                <[string8][Text][Ford Trimotor (zwany także „Tri-Motor” i „Blaszaną Gęsią”) był amerykańskim trzysilnikowym samolotem transportowym, który został po raz pierwszy wyprodukowany w 1925 roku przez firmy Henry'ego Forda i był produkowany do 7 czerwca 1933 roku. Przez cały okres produkcji wyprodukowano łącznie 199 Fordów Trimotors. Został on zaprojektowany dla rynku lotnictwa cywilnego, ale był również używany przez jednostki wojskowe i sprzedawany na całym świecie. Dla Aerofly FS4 wykonany przez Krzysztofa Kaniewskiego, model 3D z cadnav.com.]>
 			>
         >
 		<[float64][WingSpan][23.7]>
