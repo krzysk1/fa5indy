@@ -7,15 +7,15 @@
         <[string8][DisplayNameFull][Ford 5-AT Trimotor]>
         <[list_localized_text][Descriptions][]
             <[localized_text][element][0]
-                <[string8][Language][en]>
+                <[string8u][Language][en]>
                 <[string8][Text][The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world. For Aerofly FS4 made by Krzysztof Kaniewski, 3D model from cadnav.com.]>
             >
             <[localized_text][element][1]
-                <[string8][Language][de]>
+                <[string8u][Language][de]>
                 <[string8][Text][Ford Trimotor ist die gemeinsame Bezeichnung für die dreimotorigen Passagierflugzeuge der Typen Ford 4-AT und Ford 5-AT, welche von der Stout Metal Airplane Company, einem Tochterunternehmen der Ford Motor Company, von 1926 bis 1933 produziert wurden. Für Aerofly FS4 von Krzysztof Kaniewski. 3d-Modell heruntergeladen von cadnav.com.]>
 			>
             <[localized_text][element][2]
-                <[string8][Language][pl]>
+                <[string8u][Language][pl]>
                 <[string8][Text][Ford Trimotor (zwany także „Tri-Motor” i „Blaszaną Gęsią”) był amerykańskim trzysilnikowym samolotem transportowym, który został po raz pierwszy wyprodukowany w 1925 roku przez firmy Henry'ego Forda i był produkowany do 7 czerwca 1933 roku. Przez cały okres produkcji wyprodukowano łącznie 199 Fordów Trimotors. Został on zaprojektowany dla rynku lotnictwa cywilnego, ale był również używany przez jednostki wojskowe i sprzedawany na całym świecie. Dla Aerofly FS4 wykonany przez Krzysztofa Kaniewskiego, model 3D z cadnav.com.]>
 			>
         >
@@ -26,17 +26,17 @@
         <[float64][ApproachAirspeed][33.3]>
         <[float64][CruiseAirspeed][39.0]>
         <[float64][CruiseSpeed][55.0]>
-		<[tmvector2d][NormalAirspeedRange][ 28.0 52.1 ]>
-		<[tmvector2d][CautionAirspeedRange][ 52.1 65.0 ]>
-		<[tmvector2d][FlapAirspeedRange][ 0.0 0.0 ]>
+		<[vector2_float64][NormalAirspeedRange][ 28.0 52.1 ]>
+		<[vector2_float64][CautionAirspeedRange][ 52.1 65.0 ]>
+		<[vector2_float64][FlapAirspeedRange][ 0.0 0.0 ]>
         <[float64][MaximumAltitude][5640.0]>
         <[float64][CruiseAltitude][2826.0]>
         <[float64][MaximumTakeoffMass][4595.0]>
         <[float64][EnginePower][939000.0]>
         <[float64][MaximumRange][885000.0]>
-        <[uint][UnitsBuilt][199]>
-        <[uint][EngineCount][3]>
-        <[uint][Year][1926]>
+        <[uint32][UnitsBuilt][199]>
+        <[uint32][EngineCount][3]>
+        <[uint32][Year][1926]>
         <[string8][Tags][ airplane historical piston gear tailgear ]>
         <[string8][Pilot][pilot_peter]>
     >
