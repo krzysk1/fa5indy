@@ -1,4 +1,7 @@
 # fa5indy
+
+**THE MODEL HAS NO FUNCTIONAL COCKPIT AND NO FURTHER DEVELOPMENT IS PLANNED**
+
 The Ford Trimotor (also called the "Tri-Motor", and nicknamed "The Tin Goose") was an American three-engined transport aircraft that was first produced in 1925 by the companies of Henry Ford and that continued to be produced until June 7, 1933. Throughout its time in production, a total of 199 Ford Trimotors were produced. It was designed for the civil aviation market, and was also used by military units and sold all over the world. (From Wikipedia, the free encyclopedia)
 
 This is free add-on for Aerofly FS4 created by Krzysztof Kaniewski with the Aerofly FS4 SDK,
